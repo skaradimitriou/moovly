@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723631760646",
+    "project_id": "moovly-f5a0b",
+    "storage_bucket": "moovly-f5a0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723631760646:android:085936e0328837112cea87",
+        "android_client_info": {
+          "package_name": "com.stathis.moovly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723631760646-vft00th6u67bvp01a15jare62537ndk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiUx7ugLKFnabqmz3HAXJIfoz70zz_hqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723631760646-vft00th6u67bvp01a15jare62537ndk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

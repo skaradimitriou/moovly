@@ -9,4 +9,9 @@
     <string name="e_mail">E-mail</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="create_account">Create account</string>
+
+    <!-- Login Activity -->
+    <string name="error">Error</string>
+    <string name="account_created">Account Created</string>
+
 </resources>
