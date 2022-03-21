@@ -28,7 +28,7 @@ class RegisterFragment : MoovlyFragment<FragmentRegisterBinding>(R.layout.fragme
 
         viewModel.accountCreated.observe(viewLifecycleOwner){
             when(it){
-                true -> accountCreated()
+                true -> findNavController().navigate(R.id.goToResultScreen)
                 false -> Toast.makeText(requireContext(),getString(R.string.error),Toast.LENGTH_LONG).show()
             }
         }
@@ -36,13 +36,5 @@ class RegisterFragment : MoovlyFragment<FragmentRegisterBinding>(R.layout.fragme
 
     override fun stopOps() {
         viewModel.accountCreated.removeObservers(viewLifecycleOwner)
-    }
-
-    private fun accountCreated(){
-        Toast.makeText(requireContext(),getString(R.string.account_created),Toast.LENGTH_LONG).show()
-        lifecycleScope.launch {
-            findNavController().navigate(R.id.loginFragment)
-            delay(2000)
-        }
     }
 }

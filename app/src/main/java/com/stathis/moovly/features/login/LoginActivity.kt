@@ -13,4 +13,8 @@ class LoginActivity : MoovlyActivity<ActivityLoginBinding>(R.layout.activity_log
     override fun startOps() {}
 
     override fun stopOps() {}
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+    }
 }

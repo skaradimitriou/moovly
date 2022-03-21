@@ -28,6 +28,19 @@
         android:id="@+id/registerFragment"
         android:name="com.stathis.moovly.features.login.register.RegisterFragment"
         android:label="RegisterFragment"
-        tools:layout="@layout/fragment_register" />
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/goToResultScreen"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.stathis.moovly.features.login.result.ResultFragment"
+        android:label="ResultFragment" >
+        <action
+            android:id="@+id/goToLogin"
+            app:destination="@id/loginFragment" />
+    </fragment>
 
 </navigation>
