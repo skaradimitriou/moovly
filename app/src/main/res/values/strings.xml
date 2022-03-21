@@ -13,5 +13,7 @@
     <!-- Login Activity -->
     <string name="error">Error</string>
     <string name="account_created">Account Created</string>
+    <string name="result_header">Your account has been created!</string>
+    <string name="result_screen_btn">Get Started!</string>
 
 </resources>
